@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
-}
+body {
+  margin-top: 56px; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+a {
+  color: #3B4754; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+h1 {
+  font-size: 54px;
+  font-weight: 700;
+  color: #212325; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.bg {
+  background-image: url(./assets/images/indoor-climbing-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 140px;
+  padding-bottom: 140px; }
+  .bg a, .bg button {
+    width: 100px;
+    border-radius: 19px;
+    background-color: #3B4754;
+    border-color: #3B4754; }
 
-.App-link {
-  color: #61dafb;
-}
+.contact-icon {
+  color: #EDF0F4; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.fa {
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.fa-stack {
+  font-size: 1em; }
+
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
+#city-state {
+  margin-left: 32px; }
+
+#circleIconGvl {
+  color: #3B4754; }
