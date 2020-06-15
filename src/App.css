@@ -16,9 +16,10 @@ h1 {
   background-size: cover;
   padding-top: 140px;
   padding-bottom: 140px; }
-  .bg a, .bg button {
+  .bg a {
     width: 100px;
     border-radius: 19px;
+    color: #FFFFFF;
     background-color: #3B4754;
     border-color: #3B4754; }
 
